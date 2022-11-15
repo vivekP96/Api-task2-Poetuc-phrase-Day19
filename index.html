@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Api--Poetic Phrase-Task2</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script src="Api-task2.js" defer></script>
+    <style>
+      .button-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid bg-gradient">
+      <h1
+        class="m-2 p-3"
+        style="text-align: center; background-color: blueviolet"
+      >
+        Displaying A single Poetic phrases
+      </h1>
+      <h4 class="m-2 p-3" style="text-align: center">
+        Click this Below button for one new phrase
+      </h4>
+      <div class="button-center">
+        <button id="buttonid" class="btn btn-warning m-5">
+          Click Me for a new phrase
+        </button>
+      </div>
+      <div id="divele" style="height: 50vh">
+        <p id="phrase"></p>
+      </div>
+    </div>
+  </body>
+</html>
